@@ -1,0 +1,5 @@
+{
+  "name": "簡易影片製作",
+  "description": "Transform your photo collections into cinematic videos with music. Uses Gemini AI to analyze your photos and automatically suggest themes, titles, and transition styles for the perfect slideshow.",
+  "requestFramePermissions": []
+}
