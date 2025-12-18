@@ -1,40 +1,175 @@
-
 <!DOCTYPE html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>隱私權政策 - Easymaker 123</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <title>Easymaker123 隱私權政策</title>
     <style>
-        body { font-family: 'Zen Maru Gothic', sans-serif; background-color: #0f172a; color: #f8fafc; line-height: 1.6; }
-        .container { max-width: 800px; margin: 0 auto; padding: 4rem 2rem; }
-        h1 { font-size: 2rem; font-weight: 800; color: #fff; margin-bottom: 2rem; border-left: 4px solid #3b82f6; padding-left: 1rem; }
-        h2 { font-size: 1.25rem; font-weight: 700; color: #3b82f6; margin-top: 2rem; margin-bottom: 1rem; }
-        p { margin-bottom: 1rem; color: #94a3b8; }
-        .back-link { display: inline-block; margin-top: 3rem; color: #3b82f6; text-decoration: none; font-weight: 700; }
-        .back-link:hover { text-decoration: underline; }
+        body {
+            font-family: 'Segoe UI', 'Microsoft JhengHei', sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: #333;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #2980b9;
+            margin-top: 30px;
+            padding-left: 10px;
+            border-left: 4px solid #3498db;
+        }
+        h3 {
+            color: #16a085;
+        }
+        .last-updated {
+            text-align: right;
+            font-style: italic;
+            color: #7f8c8d;
+            margin: -10px 0 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .divider {
+            text-align: center;
+            margin: 30px 0;
+            color: #95a5a6;
+            letter-spacing: 4px;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background-color: #fffde7;
+            padding: 15px;
+            border-left: 4px solid #ffeb3b;
+            margin: 15px 0;
+        }
+        .contact {
+            background-color: #e3f2fd;
+            padding: 15px;
+            border-radius: 4px;
+            margin-top: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #7f8c8d;
+            font-size: 0.9em;
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <h1>隱私權政策</h1>
-        <p>最後更新日期：2024年5月</p>
-        
-        <h2>1. 資訊收集與處理</h2>
+    <h1>隱私權政策</h1>
+    <p class="last-updated">最後更新日期：2025-12-18</p>
+    
+    <div class="section">
+        <p>歡迎使用【Easymaker123】（以下簡稱「本網站」）。</p>
+        <p>本網站為線上影片製作工具，並非常重視使用者的隱私權。</p>
+        <p>本網站使用 Google API 服務（包含 Google Picker API 與 Google Drive API），僅在使用者明確授權並主動操作的情況下，存取其 Google Drive 資料。</p>
+    </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>一、蒐集的資料</h2>
         <p>Easymaker 123 是一款基於瀏覽器端技術的工具。您上傳的所有照片、影片與音樂檔案均僅在您的本地設備瀏覽器中處理。我們不會將您的原始素材上傳至任何伺服器。</p>
         
-        <h2>2. 第三方服務</h2>
+        <h3>1. Google 使用者資料</h3>
+        <p>當使用者透過 Google Picker 從 Google Drive 匯入素材時，本網站僅存取使用者所選取的檔案及其必要的中繼資料（例如檔名、檔案 ID、檔案類型）。</p>
+        <p>本網站不會存取使用者未主動選取的其他 Google Drive 檔案。</p>
         <p>本程式使用 Google Picker API 存取您的 Google 雲端硬碟或相簿。相關授權僅用於在本地端讀取檔案內容，我們不會儲存您的 Google 帳號資訊或長期保留存取權杖。</p>
         
-        <h2>3. 專案儲存</h2>
+        <h3>2. 技術性資訊</h3>
+        <p>為確保網站正常運作，系統可能會自動蒐集基本技術資訊，包含 IP 位址、瀏覽器類型與裝置資訊。</p>
+        
+        <h3>3. 專案儲存</h3>
         <p>當您點擊「儲存專案」時，程式會將素材轉換為 Base64 字串並封裝成 JSON 檔案供您下載。這些數據均儲存在您的電腦中，我們無權存取。</p>
-        
-        <h2>4. 聯繫我們</h2>
-        <p>若對隱私權政策有任何疑問，請透過您的專屬開發管道聯繫支援團隊。</p>
-        
-        <a href="index.html" class="back-link">← 返回首頁</a>
     </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>二、資料使用方式</h2>
+        <p>蒐集之資料僅用於以下目的：</p>
+        <ul>
+            <li>提供影片製作與素材匯入功能</li>
+            <li>依使用者操作處理與顯示檔案</li>
+            <li>維護與改善本網站服務</li>
+        </ul>
+        <p>資料不會用於廣告、行銷或任何與功能無關之用途。</p>
+    </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>三、Google 使用者資料政策說明（重要）</h2>
+        <div class="highlight">
+            <p>本網站對 Google 使用者資料之使用，完全遵守 Google API Services User Data Policy。</p>
+            <ul>
+                <li>不會將 Google 使用者資料用於廣告用途</li>
+                <li>不會出售、出租或分享 Google 使用者資料</li>
+                <li>Google Drive 資料僅於功能執行期間使用，不會永久儲存於本網站伺服器（或僅暫存於處理期間）</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>四、第三方服務</h2>
+        <p>本網站僅使用 Google 提供之官方 API 服務，不會將使用者資料提供給其他第三方。</p>
+    </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>五、資料安全</h2>
+        <p>本網站採取合理的技術與管理措施，以保護使用者資料免於未經授權的存取、洩漏或竄改。</p>
+    </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>六、使用者權利</h2>
+        <p>使用者可隨時：</p>
+        <ul>
+            <li>透過 Google 帳戶設定撤銷本網站的存取權限</li>
+            <li>停止使用本網站服務</li>
+            <li>聯絡我們要求刪除相關資料</li>
+        </ul>
+    </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>七、隱私權政策更新</h2>
+        <p>本政策如有更新，將公布於本頁面，恕不另行個別通知。</p>
+    </div>
+    
+    <div class="divider">────────────────────</div>
+    
+    <div class="section">
+        <h2>八、聯絡方式</h2>
+        <div class="contact">
+            <p>如對本隱私權政策有任何疑問，請聯絡：</p>
+            <p>Email：<a href="mailto:alice55505@gmail.com">alice55505@gmail.com</a></p>
+        </div>
+    </div>
+    
+    <footer>
+        <p>© 2025 Easymaker123 隱私權政策</p>
+    </footer>
 </body>
 </html>
+
