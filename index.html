@@ -3,10 +3,17 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    
+    <!-- Google Site Verification: 已修正格式 -->
+    <meta name="google-site-verification" content="4XWvFyhdpr8wP404MfX9uRLsmuCpkenL8GFehZL-k3s" />
+
+    <!-- Critical fix for Google API 400 origin_mismatch/storagerelay errors -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
+    
     <title>Easymaker 123</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@400;700&family=Noto+Serif+TC:wght@400;700&family=Zen+Maru+Gothic:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Mochiy+Pop+One&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
     <!-- JustFont Open Huninn (Huninn) -->
     <link href="https://cdn.jsdelivr.net/gh/justfont/open-huninn-font@master/font/jf-openhuninn-1.1.css" rel="stylesheet">
     <!-- LXGW Marker Gothic -->
@@ -16,9 +23,10 @@
     <script src="https://accounts.google.com/gsi/client"></script>
     <style>
       body {
-        font-family: 'Zen Maru Gothic', 'Noto Sans TC', 'Inter', sans-serif;
+        font-family: 'jf-openhuninn-1.1', 'Noto Sans TC', 'Inter', sans-serif;
         background-color: #0f172a; /* Slate 900 */
         color: #f8fafc;
+        overscroll-behavior: none; /* Prevent pull-to-refresh on mobile */
       }
       /* Custom scrollbar */
       ::-webkit-scrollbar {
@@ -49,7 +57,7 @@
   }
 }
 </script>
-  <script type="module" crossorigin src="/assets/index-CWQDMTwO.js"></script>
+  <script type="module" crossorigin src="/assets/index-BErdX-wI.js"></script>
 </head>
   <body>
     <div id="root"></div>
