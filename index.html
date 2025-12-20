@@ -1,52 +1,28 @@
-u003c!DOCTYPE htmlu003e
-u003chtml lang="en"u003e
-  u003cheadu003e
-    u003cmeta charset="UTF-8" /u003e
-    u003cmeta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" /u003e
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     
-    u003c!-- Google Site Verification --u003e
-    u003cmeta name="google-site-verification" content="4XWvFyhdpr8wP404MfX9uRLsmuCpkenL8GFehZL-k3s" /u003e
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="4XWvFyhdpr8wP404MfX9uRLsmuCpkenL8GFehZL-k3s" />
 
-    u003c!-- Critical fix for Google API 400 origin_mismatch/storagerelay errors --u003e
-    u003cmeta name="referrer" content="strict-origin-when-cross-origin" /u003e
+    <!-- Critical fix for Google API 400 origin_mismatch/storagerelay errors -->
+    <meta name="referrer" content="strict-origin-when-cross-origin" />
     
-    u003ctitleu003eEasymaker 123u003c/titleu003e
-    u003cscript src="https://cdn.tailwindcss.com"u003eu003c/scriptu003e
-    u003clink href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Mochiy+Pop+One&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet"u003e
-    u003c!-- JustFont Open Huninn (Huninn) --u003e
-    u003clink href="https://cdn.jsdelivr.net/gh/justfont/open-huninn-font@master/font/jf-openhuninn-1.1.css" rel="stylesheet"u003e
-    u003c!-- LXGW Marker Gothic --u003e
-    u003clink href="https://cdn.jsdelivr.net/npm/lxgw-marker-gothic-web/style.css" rel="stylesheet"u003e
-    
-    u003c!-- Google API Scripts --u003e
-    u003cscript src="https://apis.google.com/js/api.js"u003eu003c/scriptu003e
-    u003cscript src="https://accounts.google.com/gsi/client"u003eu003c/scriptu003e
-
-    u003c!-- ★★★ 重點修改：在這裡手動注入環境變數 ★★★ --u003e
-    u003cscriptu003e
-      // 請將下面的引號內換成你真正的金鑰
-      const MY_CLIENT_ID = "208217318300-e58p9c688o3n0f11rpm9bnntnhqrp18a.apps.googleusercontent.com"; 
-      const MY_API_KEY = "AIzaSyAo41JycYePmA6kE841jJ9-fk4BUMKLao8";
-
-      // 把金鑰塞到所有可能被讀取的地方，確保萬無一失
-      window.GOOGLE_CLIENT_ID = MY_CLIENT_ID;
-      window.GOOGLE_API_KEY = MY_API_KEY;
-      
-      // 模擬 process.env，騙過打包後的程式碼
-      window.process = {
-        env: {
-          GOOGLE_CLIENT_ID: MY_CLIENT_ID,
-          GOOGLE_API_KEY: MY_API_KEY,
-          VITE_GOOGLE_CLIENT_ID: MY_CLIENT_ID,
-          VITE_GOOGLE_API_KEY: MY_API_KEY
-        }
-      };
-    u003c/scriptu003e
-    u003c!-- ★★★ 修改結束 ★★★ --u003e
-
-    u003cstyleu003e
+    <title>Easymaker 123</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Mochiy+Pop+One&family=Inter:wght@300;400;500;600;700&family=Noto+Sans+TC:wght@400;700&display=swap" rel="stylesheet">
+    <!-- JustFont Open Huninn (Huninn) -->
+    <link href="https://cdn.jsdelivr.net/gh/justfont/open-huninn-font@master/font/jf-openhuninn-1.1.css" rel="stylesheet">
+    <!-- LXGW Marker Gothic -->
+    <link href="https://cdn.jsdelivr.net/npm/lxgw-marker-gothic-web/style.css" rel="stylesheet">
+    <!-- Google API Scripts -->
+    <script src="https://apis.google.com/js/api.js"></script>
+    <script src="https://accounts.google.com/gsi/client"></script>
+    <style>
       body {
-        font-family: jf-openhuninn-1.1, Noto Sans TC, Inter, sans-serif;
+        font-family: 'jf-openhuninn-1.1', 'Noto Sans TC', 'Inter', sans-serif;
         background-color: #0f172a; /* Slate 900 */
         color: #f8fafc;
         overscroll-behavior: none; /* Prevent pull-to-refresh on mobile */
@@ -66,10 +42,10 @@ u003chtml lang="en"u003e
       ::-webkit-scrollbar-thumb:hover {
         background: #64748b; 
       }
-    u003c/styleu003e
+    </style>
 
-u003clink rel="stylesheet" href="/index.css"u003e
-u003cscript type="importmap"u003e
+<link rel="stylesheet" href="/index.css">
+<script type="importmap">
 {
   "imports": {
     "react": "https://esm.sh/react@^19.2.3",
@@ -80,11 +56,11 @@ u003cscript type="importmap"u003e
     "@vitejs/plugin-react": "https://esm.sh/@vitejs/plugin-react@^5.1.2"
   }
 }
-u003c/scriptu003e
-  u003cscript type="module" crossorigin src="/assets/index-BISjT5uX.js"u003eu003c/scriptu003e
-  u003clink rel="modulepreload" crossorigin href="/assets/vendor-r3Eagn9n.js"u003e
-u003c/headu003e
-  u003cbodyu003e
-    u003cdiv id="root"u003eu003c/divu003e
-  u003c/bodyu003e
-u003c/htmlu003e
+</script>
+  <script type="module" crossorigin src="/assets/index-BISjT5uX.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/vendor-r3Eagn9n.js">
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
